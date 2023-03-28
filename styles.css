@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(43, 30, 231);
     font-family: 'Tillana', cursive;
     overflow: hidden;
 }
@@ -28,7 +28,7 @@ label{
 
 button{
     width: 155px;
-    height: 60px;
+    height: 70px;
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 20px;
