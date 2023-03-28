@@ -10,8 +10,6 @@ main{
     margin: 0 auto;
     height: 100vh;
     max-width: 375px;
-
-
 }
 
 h1{
@@ -33,6 +31,7 @@ button{
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: 10px;
     border-radius: 10px;
     border: 1px black solid;
     background-color: #e0e1dd;
@@ -40,8 +39,16 @@ button{
     color: black;
 }
 
+button:hover,
+button:active{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: green;
+}
+
 #length{
     width: 325px;
+    cursor: pointer;
 }
 
 #password{
@@ -64,4 +71,67 @@ button{
     border-radius: 10px;
     padding: 10px;
     color: black;
+}
+
+@media (min-width: 600px) {
+    main{
+        max-width: 400px;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 800px) {
+    main{
+        max-width: 500px;
+        margin-top: 30px;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    #password{
+        width: 500px;
+        height: 70px;
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    main{
+        max-width: 800px;
+        margin-top: 30px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    #password{
+        width: 800px;
+        height: 90px;
+        font-size: 2.5rem;
+    }
+    button{
+        width: 300px;
+        font-size: 2rem
+    }
+    #settings{
+        
+        width: 500px;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    #length{
+        width: 450px;
+    }
 }
