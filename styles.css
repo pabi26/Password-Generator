@@ -35,7 +35,7 @@ button{
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px black solid;
-    background-color: rgb(202, 199, 199);
+    background-color: #e0e1dd;
     padding: 5px;
     color: black;
 }
@@ -57,7 +57,7 @@ button{
 
 
 #settings{
-    background-color: rgb(202, 199, 199);
+    background-color: #e0e1dd;
     width: 340px;
     margin: 0 auto;
     border: none;
