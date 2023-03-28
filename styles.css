@@ -13,8 +13,12 @@ main{
 }
 
 h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-decoration: underline;
+}
+
+h2{
+    font-size: ;
 }
 
 label{
@@ -35,7 +39,7 @@ button{
 }
 
 #password{
-    width: 400px;
+    width: 375px;
     height: 50px;
     text-align: center;
     font-size: 1.5rem;
