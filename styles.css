@@ -7,7 +7,7 @@ main{
     text-align: center;
     margin: 0 auto;
     height: 100vh;
-    max-width: 500px;
+    max-width: 375px;
     border: 1px black solid;
 
 }
@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-    font-size: ;
+    font-size: 1.1rem;
 }
 
 label{
@@ -26,23 +26,24 @@ label{
 }
 
 button{
-    width: 200px;
+    width: 155px;
     height: 50px;
     font-size: 1.3rem;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     border: 1px black solid;
 }
 
 #length{
-    width: 375px;
+    width: 325px;
 }
 
 #password{
-    width: 375px;
+    width: 350px;
     height: 50px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-radius: 10px;
     border: 1px black solid;
     margin-bottom: 10px;
@@ -52,7 +53,7 @@ button{
 
 #settings{
     background-color: rgb(202, 199, 199);
-    width: 400px;
+    width: 340px;
     margin: 0 auto;
     border: none;
     border-radius: 10px;
