@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tillana:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Password Generator</title>
+</head>
+<body>
+    <main>
+        <h1>Password Generator</h1>
+        <h2>Generate secure, random passwords with the click of a button!</h2>
+
+        <label for="password">Generated Password:</label>
+        <br>
+        <input type="text" id="password" readonly>
+        <div>
+            <button onclick="generatePassword()">Generate Password</button>
+            <button onclick="copyPassword()">Copy Password</button>
+        </div>
+
+    <div id="settings">
+        <label for="length">Password Length:</label>
+        <br>
+        <input type="range" id="length" min="10" max="30" value="20">
+        <p id="slider-value">20</p>
+
+        <div>
+            <label for="includeNumbers">Include Numbers:</label>
+            <input type="checkbox" id="includeNumbers" checked>
+        </div>
+        <div>
+            <label for="includeSymbols">Include Symbols:</label>
+            <input type="checkbox" id="includeSymbols">
+        </div>
+    </div>
+        
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
